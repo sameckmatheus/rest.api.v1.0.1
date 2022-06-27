@@ -23,6 +23,6 @@ Mas, o que é uma API ?
 <div align="center">
   <img src="images/readme-restapi.png" width="700px">
   <p align="justify">
-    Esta atualização do projeto consta com novas funcionalidaes como criptografia de passwords aprimorada juntamente com a utilização do JWT para a realização de autenticações através de tokens no padrão 'sha256'. Além de updates na área de controllers (User & Login) que permite uma melhora significativa no armazenamento dos dados coletados através do cadastro criado na primeira parte da aplicação, onde fizemos a utilização do MongoDB Compass para armazenar as informações e assim proporcionar um melhor entendimento da aplicação em si. A prózima atualização contará com ua inegração de multiplos bancos de dados (ex: mysql), aguardem as cenas dos próximos capítulos.
+    Esta atualização do projeto consta com novas funcionalidaes como criptografia de passwords aprimorada juntamente com a utilização do JWT para a realização de autenticações através de tokens no padrão 'sha256'. Além de updates na área de controllers (User & Login) que permite uma melhora significativa no armazenamento dos dados coletados através do cadastro criado na primeira parte da aplicação, onde fizemos a utilização do MongoDB Compass para armazenar as informações e assim proporcionar um melhor entendimento da aplicação em si. A prózima atualização contará com ua inegração de multiplos bancos de dados (ex: mysql) além de uma integração com o Whatsapp, aguardem as cenas dos próximos capítulos.
   </p>
 </div>
