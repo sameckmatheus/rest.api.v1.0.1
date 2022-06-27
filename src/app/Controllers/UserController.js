@@ -53,21 +53,6 @@ class UserController {
         // === Criptografia da senha
         data.password = await bcrypt.hash(data.password, 8);
 
-        // === Send WhatsApp Message
-        await axios.post(
-            'https://api.z-api.io/instances/3A72519F8FD8E089AA043E04D4E4B31D/token/E4B641DDC00606FB3D6B6A60/send-messages',
-            {
-                "phone": "phone",
-                "message": "Bem vindo(a) a nossa plataforma!"
-            }
-        )
-        .then(() => {
-            console.log('Message send successfully!');
-        })
-        .catch((err) => {
-            console.log(err);
-        })
-
         // === Inserção no Banco de Dados
         await User.create(data, (err) => {
             if(err) return res.status(400).json({
