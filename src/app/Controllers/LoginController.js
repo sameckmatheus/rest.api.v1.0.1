@@ -32,7 +32,7 @@ class LoginController {
                 { expiresIn: config.expireIn }
             )
         })
-    } 
+    }
 }
 
 module.exports = new LoginController();
